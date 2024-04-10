@@ -112,5 +112,22 @@ span {
 
 
 }
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 
+}
+.skills{
+    display: flex;
+    gap: 120px;
+    
 
+}
+.skills > img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
