@@ -15,15 +15,20 @@
             <img src="./src/imgs/logo.svg" alt="site-logo">
             <h5>??????</h5>
         </div>
-        <nav>
-            <a href="#">About Me</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact Me</a>
-        </nav>
-        <button class="download-btt">Resume <img src="./src/imgs/download-icon.svg" alt="download-icon"></button>
+        <img src="./src/imgs/hamburger-icon.svg" alt="menu-icon" class="menu-icon" onclick="handleMenu()">
+        <div id="menu">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#">About Me</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact Me</a>
+                </div>
+                <button class="download-btt">Resume <img src="./src/imgs/download-icon.svg"
+                        alt="download-icon"></button>
+            </nav>
+        </div>
     </header>
-
     <main>
         <div class="text-wrapper">
             <span>
@@ -114,7 +119,9 @@
                 to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of
                 users worldwide.</p>
         </div>
-    </article>
+    </article> 
+
+    <script src="./src/script/script.js"></script>
 </body>
 
 </html>
