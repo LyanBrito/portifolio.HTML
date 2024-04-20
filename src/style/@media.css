@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+    header {
+        gap: 0px;
+        height: 72px;
+        justify-content: unset;
+
+    }
+    .header-wrapper {
+      margin-left: 24px;
+
+    }
+    .menu-icon {
+      display: block !important;
+      position: absolute; 
+      right: 0;
+      margin: calc(36px - 18px);
+      height: 18px;
+      width: 27 px;
+      color: rgb(61, 43, 43);
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white-200);
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        top: 79px;
+        gap: 25px;
+    }
+    .nav-wrapper {
+        flex-direction: column;
+
+    }
+  #menu {
+    display: none;
+  }
+
+
+}
