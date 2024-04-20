@@ -213,6 +213,7 @@ article {
     background-color: var(--black-200);
     padding-top: 80px;
     align-items: center;
+    width: 100%;
     justify-content: center;
     gap: 32px;
 }
