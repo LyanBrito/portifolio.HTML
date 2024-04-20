@@ -133,6 +133,7 @@ main {
 .text-wrapper {
     display: flex;
     flex-direction: column;
+    width: 600px;
     gap: 32px;
 
 }
@@ -225,6 +226,7 @@ article>h1 {
 .cards-wrapper>p {
     color: var(--white-300);
 }
+
 .cards-wrapper {
     display: flex;
     flex-direction: column;
@@ -245,17 +247,20 @@ article>h1 {
     display: flex;
     gap: 30px;
 }
-.title-wrapper>p{
+
+.title-wrapper>p {
     color: var(--white-200);
 
 
 }
+
 .tittle-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+
 .tittle-card>p {
     color: var(--white-300);
 
