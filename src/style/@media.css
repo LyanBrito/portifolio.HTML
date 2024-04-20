@@ -74,4 +74,17 @@
     margin-top: 0px;
 
   }
+  section{
+    gap: 20px;
+
+  }
+  .skills-wrapper{
+    gap: 20px;
+    
+  }
+  .skills-wrapper>div{
+    width: 157px;
+    height: 157px;
+    border: 2px solid var(--black-200);
+  }
 }
