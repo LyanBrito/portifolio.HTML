@@ -198,4 +198,12 @@
     line-height: 28px;
 
   }
+  footer {
+    height: 72px;
+
+  }
+  .footer-responsive{
+    margin: none;
+
+  }
 }
