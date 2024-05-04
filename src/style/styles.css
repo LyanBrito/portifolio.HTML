@@ -166,10 +166,6 @@ section {
 
 }
 
-section>h1 {
-    margin-bottom: 40px;
-
-}
 
 .skills-wrapper {
     display: flex;
@@ -212,13 +208,17 @@ article {
     display: flex;
     flex-direction: column;
     background-color: var(--black-200);
-    padding-top: 80px;
     align-items: center;
-    width: 100%;
     justify-content: center;
+    width: 100%;
+    height: 1824px;
     gap: 32px;
-}
 
+}
+.experiences{
+    height: 956px;
+
+}
 article>h1 {
     color: var(--white-200);
     padding-bottom: calc(80px - 32px);
@@ -227,6 +227,7 @@ article>h1 {
 
 .cards-wrapper>p {
     color: var(--white-300);
+    width: 95%;
 }
 
 .cards-wrapper {
@@ -234,7 +235,6 @@ article>h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 24px 30px 24px;
     gap: 28px;
 
     width: 1168px;
@@ -260,7 +260,7 @@ article>h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
 }
 
 .tittle-card>p {
@@ -286,6 +286,7 @@ article>h1 {
 .project-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 28px;
 }
 .project-wrapper>p {
@@ -300,7 +301,7 @@ article>h1 {
     text-align: start;
 
 }
-.project-wrapper>h2 {
+h2 {
     color: var(--white-200);
     font-size: 32px;
 }
@@ -311,7 +312,6 @@ article>h1 {
 .img-wrapper {
     display: flex;
     align-items: center;
-    width: 88%;
-    gap: 104px;
+    gap: 40px;
 
 }
