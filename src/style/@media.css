@@ -10,6 +10,10 @@
     justify-content: unset;
 
   }
+  header>img{
+    cursor: pointer;
+
+  }
 
   .header-wrapper {
     margin-left: 24px;
@@ -30,11 +34,29 @@
     display: flex;
     flex-direction: column;
     background-color: var(--white-200);
+    border-radius: 10px;
     padding: 20px;
     position: absolute;
     right: 0;
     top: 79px;
     gap: 25px;
+
+  }
+  nav>div {
+    gap: 25px;
+
+  }
+
+  a {
+    font-size: 16px;
+    line-height: normal;
+
+  }
+
+  button {
+    height: unset;
+    padding: 10px 16px 10px 16px;
+    font-size: 16px;
 
   }
 
@@ -51,17 +73,17 @@
     flex-direction: column-reverse;
     justify-content: center;
     gap: 48px;
-    width: 343px;
+    width: 91%;
 
   }
 
   .text-wrapper {
-    width: 343px;
+    width: 91%;
 
   }
 
   main>img {
-    width: 282px;
+    width: 76%;
     height: 275px;
 
   }
@@ -98,7 +120,7 @@
   }
 
   .experiences {
-    height: 1446px;
+    height: 1560px;
 
   }
 
@@ -117,19 +139,19 @@
     flex-direction: column;
     align-items: unset;
     gap: 30px;
-    width: 295px;
+    width: 91%;
 
   }
 
   .cards-wrapper {
-    width: 343px;
-    height: 426px;
+    width: 91%;
+    height: 440px;
     padding: 0px;
 
   }
 
   .cards-wrapper>p {
-    width: 295px;
+    width: 91%;
 
   }
 
@@ -141,14 +163,39 @@
     width: 100%;
     height: max-content;
   }
+
   .img-wrapper {
     width: 91%;
     flex-direction: column;
 
   }
+
   h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     line-height: unset;
+  }
+  .contacts{
+    flex-direction: column;
+    width: 91%;
+    gap: 84px;
+  }
+  form {
+    width: 100%;
+
+  }
+  form>.button-wrapper{
+    flex-wrap: wrap;
+
+  }
+  .button-wrapper>button{
+    margin-right: 54%;
+    height: 53px;
+
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+
   }
 }
