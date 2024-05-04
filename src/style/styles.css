@@ -30,6 +30,8 @@ textarea,
 h1, 
 h2,
 h3,
+h4,
+h5,
 button{
     font-family: "Sora", sans-serif;
     text-decoration: none;
@@ -59,7 +61,8 @@ h1>b {
     letter-spacing: 0px;
     font-weight: 800;
 }
-
+h4,
+h5,
 a,
 button {
     font-size: 20px;
@@ -348,5 +351,17 @@ textarea{
 }
 form>.button-wrapper{
     margin: 0px;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 108px;
+    width: 100%;
+    background-color: var(--black-200);
+}   
+h4{
+    color: var(--white-100);
 
 }
