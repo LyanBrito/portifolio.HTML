@@ -26,10 +26,11 @@ a,
 li,
 ul,
 input,
+h1, 
 h2,
+h3,
 h5,
-button,
-h1 {
+button{
     font-family: "Sora", sans-serif;
     text-decoration: none;
     color: var(--gray-200);
@@ -163,7 +164,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 40px;
-
+    width: 100%;
 }
 
 
@@ -313,5 +314,23 @@ h2 {
     display: flex;
     align-items: center;
     gap: 40px;
+
+}
+.contacts {
+    flex-direction: row;
+    
+
+}
+.info-wrapper{
+    width: 34%;
+
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 100%;
 
 }
