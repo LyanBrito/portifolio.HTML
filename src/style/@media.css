@@ -3,6 +3,7 @@
     align-items: center;
 
   }
+
   header {
     gap: 0px;
     height: 72px;
@@ -21,7 +22,7 @@
     right: 0;
     margin: calc(36px - 18px);
     height: 18px;
-    width: 27 px;
+    width: 27px;
     color: rgb(61, 43, 43);
   }
 
@@ -34,6 +35,7 @@
     right: 0;
     top: 79px;
     gap: 25px;
+
   }
 
   .nav-wrapper {
@@ -52,41 +54,65 @@
     width: 343px;
 
   }
-  .text-wrapper{
+
+  .text-wrapper {
     width: 343px;
 
   }
-  main > img {
+
+  main>img {
     width: 282px;
     height: 275px;
 
   }
+
   span {
     gap: 12px;
 
   }
+
   h1 {
     font-size: 24px;
     line-height: 32px;
 
   }
+
   .button-wrapper {
     margin-top: 0px;
 
   }
-  section{
+
+  section {
     gap: 20px;
 
   }
-  .skills-wrapper{
-    gap: 20px;
-    
+
+  article {
+    height: 2300px;
+
   }
-  .skills-wrapper>div{
+
+  article>h1 {
+    padding-bottom: 0px;
+
+  }
+
+  .experiences {
+    height: 1446px;
+
+  }
+
+  .skills-wrapper {
+    gap: 20px;
+
+  }
+
+  .skills-wrapper>div {
     width: 157px;
     height: 157px;
     border: 2px solid var(--black-200);
   }
+
   .tittle-card {
     flex-direction: column;
     align-items: unset;
@@ -94,14 +120,35 @@
     width: 295px;
 
   }
+
   .cards-wrapper {
     width: 343px;
     height: 426px;
     padding: 0px;
-    
+
   }
+
   .cards-wrapper>p {
-    width: 295px;    
-    
+    width: 295px;
+
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .img-wrapper>img {
+    width: 100%;
+    height: max-content;
+  }
+  .img-wrapper {
+    width: 91%;
+    flex-direction: column;
+
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: unset;
   }
 }
