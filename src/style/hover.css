@@ -1,0 +1,18 @@
+a {
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--gray-100);
+}
+
+.social-media {
+    transition: all 0.3s ease;
+}
+
+.social-media:hover {
+    filter: drop-shadow(0px 4px 4px var(--gray-100));
+    background-color: var(--gray-300);
+}

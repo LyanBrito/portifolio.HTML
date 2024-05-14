@@ -41,6 +41,7 @@ button{
     line-height: 24px;
     font-weight: 100;
     letter-spacing: 1px;
+ 
 }
 
 a {
@@ -132,6 +133,16 @@ button {
     color: var(--white-100);
     background-color: var(--black-200);
     cursor: pointer;
+
+}
+.social-media{
+    gap: unset;
+    width: 56px;
+    padding: unset;
+    background-color: var(--white-100);
+    border: 2px solid var(--black-200);
+    color: var(--black-200);
+
 
 }
 
