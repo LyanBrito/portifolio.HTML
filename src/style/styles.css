@@ -126,7 +126,7 @@ button {
     align-items: center;
     gap: 8px;
     width: auto;
-    height: 56px;
+    height: 58px;
     padding: 20px 16px 20px 16px;
     border-radius: 4px;
     border: 2px solid var(--black-200);
@@ -136,9 +136,14 @@ button {
 
 }
 .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: unset;
-    width: 56px;
+    width: 54px;
+    height: 54px;
     padding: unset;
+    border-radius: 4px;
     background-color: var(--white-100);
     border: 2px solid var(--black-200);
     color: var(--black-200);
@@ -177,7 +182,7 @@ span {
 }
 
 .button-wrapper>a {
-    height: 58px;
+    height: 54px;
 }
 
 section {
