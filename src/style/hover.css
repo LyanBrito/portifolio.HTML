@@ -31,4 +31,17 @@ button:hover path {
     stroke: var(--black-200);
 
 }
+.skills-wrapper>div:hover {
+    background-color: var(--black-200);
+    color: var(--white-100);    
 
+}
+.skills-wrapper>div:hover p{
+    color: var(--white-100);
+    
+}
+.skills-wrapper>div:hover path {
+    fill: var(--white-100);
+    
+    
+}
