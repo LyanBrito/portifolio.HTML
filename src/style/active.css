@@ -1,0 +1,24 @@
+button:active {
+    padding: 14px 12px 14px 12px;
+    height: 54px;
+    margin: 6px 4px 6px 4px;
+    background-color: var(--white-200);
+}
+.social-media:active {
+    width: 51px;
+    height: 51px;
+    background-color: var(--black-100);
+}
+a:active{
+    color: var(--white-300);
+
+}
+
+.project-wrapper>a:active path{
+    stroke: var(--white-100);
+
+}
+.project-wrapper>a:active svg{
+    width: 20px;
+    height: 20px;
+}

@@ -1,16 +1,15 @@
 * {
-    transition: all 0.16s ease-in;
+    transition: all .13s ease-in;
 
 }
 
 a {
-
-  
     cursor: pointer;
 }
 
 a:hover {
-    color: var(--gray-100);
+    color: var(--gray-200);
+    text-decoration: underline;
 }
 
 
@@ -43,5 +42,20 @@ button:hover path {
 .skills-wrapper>div:hover path {
     fill: var(--white-100);
     
+    
+}
+
+button:hover path{
+    stroke: var(--gray-200);
+
+}
+.project-wrapper>a:hover svg {
+    width: 22px;
+    height: 22px;
+
+
+}
+.project-wrapper>a:hover path {
+    stroke: var(--white-300);
     
 }
