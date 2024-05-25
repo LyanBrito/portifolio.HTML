@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyan's Portifolio</title>
+
+    <link rel="stylesheet" href="./src/style/styles-desktop.css">
+    <link rel="stylesheet" href="./src/style/styles-mobile.css">
+    <link rel="stylesheet" href="./src/style/hover.css">
+    <link rel="stylesheet" href="./src/style/active.css">
+    <link rel="icon" href="./src/imgs/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <img src="./src/imgs/header-img.svg" alt="site-logo">
+            <h5>Lyan Brito</h5>
+        </div>
+        <img popovertarget="mypopover" src="./src/imgs/hamburger-icon.svg" alt="menu-icon" class="menu-icon"
+            onclick="handleMenu()">
+        <div id="menu">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#main">Sobre mim</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contacts">Fale comigo</a>
+                </div>
+
+                <button class="download-btt">
+                    🇬🇧/🇧🇷
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="text-wrapper">
+            <span>
+                <h1>Olá, meu nome é <b>Lyan Brito</b></h1>
+                <h1>Desenvolvedor <b>Frontend</b></h1>
+                <h1>do <b>Brazil.</b></h1>
+            </span>
+            <p>Meu nome é Lyan, tenho 17 anos e estou estudando web design e frontend e ingressando no mundo da
+                tecnologia.</p>
+            <div class="button-wrapper">
+                <a class="social-media" href="https://www.instagram.com/_lyanbrito_/" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17 4.5C17 5.32843 16.3284 6 15.5 6C14.6716 6 14 5.32843 14 4.5C14 3.67157 14.6716 3 15.5 3C16.3284 3 17 3.67157 17 4.5Z"
+                            fill="#212529" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10 15C12.7614 15 15 12.7614 15 10C15 7.23858 12.7614 5 10 5C7.23858 5 5 7.23858 5 10C5 12.7614 7.23858 15 10 15ZM10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z"
+                            fill="#212529" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 9.6C0 6.23969 0 4.55953 0.653961 3.27606C1.2292 2.14708 2.14708 1.2292 3.27606 0.653961C4.55953 0 6.23969 0 9.6 0H10.4C13.7603 0 15.4405 0 16.7239 0.653961C17.8529 1.2292 18.7708 2.14708 19.346 3.27606C20 4.55953 20 6.23969 20 9.6V10.4C20 13.7603 20 15.4405 19.346 16.7239C18.7708 17.8529 17.8529 18.7708 16.7239 19.346C15.4405 20 13.7603 20 10.4 20H9.6C6.23969 20 4.55953 20 3.27606 19.346C2.14708 18.7708 1.2292 17.8529 0.653961 16.7239C0 15.4405 0 13.7603 0 10.4V9.6ZM9.6 2H10.4C12.1132 2 13.2777 2.00156 14.1779 2.0751C15.0548 2.14674 15.5032 2.27659 15.816 2.43597C16.5686 2.81947 17.1805 3.43139 17.564 4.18404C17.7234 4.49684 17.8533 4.94524 17.9249 5.82208C17.9984 6.72225 18 7.88684 18 9.6V10.4C18 12.1132 17.9984 13.2777 17.9249 14.1779C17.8533 15.0548 17.7234 15.5032 17.564 15.816C17.1805 16.5686 16.5686 17.1805 15.816 17.564C15.5032 17.7234 15.0548 17.8533 14.1779 17.9249C13.2777 17.9984 12.1132 18 10.4 18H9.6C7.88684 18 6.72225 17.9984 5.82208 17.9249C4.94524 17.8533 4.49684 17.7234 4.18404 17.564C3.43139 17.1805 2.81947 16.5686 2.43597 15.816C2.27659 15.5032 2.14674 15.0548 2.0751 14.1779C2.00156 13.2777 2 12.1132 2 10.4V9.6C2 7.88684 2.00156 6.72225 2.0751 5.82208C2.14674 4.94524 2.27659 4.49684 2.43597 4.18404C2.81947 3.43139 3.43139 2.81947 4.18404 2.43597C4.49684 2.27659 4.94524 2.14674 5.82208 2.0751C6.72225 2.00156 7.88684 2 9.6 2Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="https://www.linkedin.com/in/lyanbrito" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.325307 8.64474C0.325307 7.52185 1.23559 6.61157 2.35847 6.61157V6.61157C3.48136 6.61157 4.39164 7.52185 4.39164 8.64474V17.9668C4.39164 19.0897 3.48136 20 2.35847 20V20C1.23559 20 0.325307 19.0897 0.325307 17.9668V8.64474ZM0 2.39669C0 1.73554 0.225907 1.17539 0.677722 0.716252C1.14761 0.238751 1.70786 0 2.35847 0C3.00909 0 3.5603 0.238751 4.01212 0.716252C4.482 1.17539 4.71695 1.73554 4.71695 2.39669C4.71695 3.05785 4.482 3.62718 4.01212 4.10468C3.5603 4.56382 3.00909 4.79339 2.35847 4.79339C1.70786 4.79339 1.14761 4.56382 0.677722 4.10468C0.225907 3.62718 0 3.05785 0 2.39669Z"
+                            fill="#212529" />
+                        <path
+                            d="M7.31304 8.56341C7.31304 7.48544 8.18691 6.61157 9.26488 6.61157H10.3076C10.8097 6.61157 11.2167 7.01858 11.2167 7.52066V8.39634C11.2167 8.41479 11.2317 8.42975 11.2501 8.42975V8.42975C11.2629 8.42975 11.2745 8.42252 11.2802 8.41114C11.4062 8.16023 11.5838 7.90931 11.8131 7.6584C12.0481 7.40129 12.3282 7.17172 12.6535 6.9697C12.9788 6.76768 13.3493 6.60239 13.765 6.47383C14.1806 6.34527 14.6324 6.28099 15.1204 6.28099C16.1505 6.28099 16.9819 6.44628 17.6144 6.77686C18.247 7.08907 18.7349 7.52984 19.0783 8.09917C19.4397 8.6685 19.6837 9.33884 19.8102 10.1102C19.9367 10.8815 20 11.7172 20 12.6171V17.9668C20 19.0897 19.0897 20 17.9668 20V20C16.8439 20 15.9337 19.0897 15.9337 17.9668V13.4435C15.9337 13.0579 15.9156 12.663 15.8795 12.259C15.8614 11.8365 15.7801 11.4509 15.6355 11.1019C15.509 10.753 15.3011 10.4683 15.012 10.2479C14.7409 10.0275 14.3433 9.91735 13.8192 9.91735C13.2951 9.91735 12.8704 10.0184 12.5451 10.2204C12.2198 10.404 11.9667 10.6612 11.786 10.9917C11.6234 11.3039 11.5149 11.6621 11.4607 12.0661C11.4065 12.4702 11.3794 12.8926 11.3794 13.3333V17.9668C11.3794 19.0897 10.4691 20 9.34621 20V20C8.22332 20 7.31304 19.0897 7.31304 17.9668V8.56341Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="mailto:lyanbrito613@gmail.com" target="_blank">
+                    <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.48777 20H6.72913V9.69958L0.670044 5.15527V18.1823C0.670044 19.1881 1.48499 20 2.48777 20Z"
+                            fill="#212529" />
+                        <path d="M21.2709 20H25.5123C26.5181 20 27.33 19.1851 27.33 18.1823V5.15527L21.2709 9.69958"
+                            fill="#212529" />
+                        <path
+                            d="M21.2709 1.82288V9.69969L27.33 5.15538V2.73174C27.33 0.483824 24.764 -0.797672 22.9675 0.550474"
+                            fill="#212529" />
+                        <path d="M6.72913 9.69956V1.82275L14 7.27593L21.2709 1.82275V9.69956L14 15.1527"
+                            fill="#212529" />
+                        <path
+                            d="M0.670044 2.73174V5.15538L6.72913 9.69969V1.82288L5.03258 0.550474C3.23304 -0.797672 0.670044 0.483824 0.670044 2.73174"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="https://github.com/LyanBrito" target="_blank">
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11 0C5.31263 0 0.706116 4.58819 0.706116 10.2529C0.706116 14.7899 3.65274 18.6219 7.74456 19.9804C8.25925 20.0701 8.45226 19.7625 8.45226 19.4934C8.45226 19.2499 8.43939 18.4425 8.43939 17.5838C5.85306 18.058 5.18395 16.9558 4.97808 16.3791C4.86227 16.0843 4.36044 15.1743 3.92295 14.9308C3.56267 14.7386 3.04797 14.2644 3.91009 14.2516C4.72073 14.2388 5.29976 14.9949 5.49277 15.3025C6.41922 16.8533 7.89896 16.4175 8.49086 16.1484C8.58093 15.4819 8.85115 15.0334 9.1471 14.777C6.85671 14.5207 4.46338 13.6364 4.46338 9.71466C4.46338 8.59965 4.86227 7.67689 5.5185 6.95918C5.41557 6.70286 5.05528 5.65193 5.62144 4.24215C5.62144 4.24215 6.48356 3.97301 8.45226 5.29308C9.27577 5.06239 10.1508 4.94704 11.0257 4.94704C11.9007 4.94704 12.7757 5.06239 13.5992 5.29308C15.5679 3.9602 16.43 4.24215 16.43 4.24215C16.9962 5.65193 16.6359 6.70286 16.533 6.95918C17.1892 7.67689 17.5881 8.58684 17.5881 9.71466C17.5881 13.6492 15.1819 14.5207 12.8915 14.777C13.2646 15.0975 13.5863 15.7126 13.5863 16.6738C13.5863 18.0452 13.5735 19.1474 13.5735 19.4934C13.5735 19.7625 13.7665 20.0829 14.2812 19.9804C18.3473 18.6219 21.2939 14.777 21.2939 10.2529C21.2939 4.58819 16.6874 0 11 0Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <img src="./src/imgs/myself-img.svg" alt="myself-img">
+    </main>
+    <section id="skills">
+        <h1>Minhas <b>Hanilidades</b></h1>
+        <div class="skills-wrapper">
+            <div>
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5 0L9.18552 50.4012L27.9724 56L46.8073 50.3937L51 0H5ZM41.8958 16.5H19.8542L20.3333 22.875H41.4167L39.7983 41.7988L28 45.31L16.179 41.81L15.3668 32.125H21.1479L21.5576 37.0363L28 38.8838L34.3993 37.0187L35.0677 29H15.0625L13.5543 10.3013H42.399L41.8958 16.5Z"
+                        fill="#212529" />
+                </svg>
+
+                <p>HTML</p>
+            </div>
+            <div>
+                <svg width="49" height="56" viewBox="0 0 49 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0L4.4625 50.4L24.5 56L44.5305 50.4035L49 0H0ZM39.459 16.4815L38.8955 22.813L37.198 41.797L24.5 45.304L24.493 45.3075L11.8055 41.7935L10.9165 31.8675H17.1325L17.5945 37.0195L24.493 38.8815L24.5 38.8745L31.4055 37.0125L32.347 28.434L10.619 28.4935L10.003 22.624L32.8685 22.358L33.3305 16.0755L9.3905 16.142L8.988 10.304H40.012L39.459 16.4815Z"
+                        fill="#212529" />
+                </svg>
+                <p>CSS</p>
+            </div>
+        </div>
+        <div class="skills-wrapper">
+            <div>
+                <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M49.7333 25.7833L30.7167 6.76659C30.1333 6.18325 29.3167 5.83325 28.5 5.83325C27.6833 5.83325 26.8667 6.18325 26.2833 6.76659L22.2 10.8499L26.9833 15.6333C27.45 15.3999 27.9167 15.2833 28.5 15.2833C30.4833 15.2833 32 16.7999 32 18.7833C32 19.3666 31.8833 19.8333 31.65 20.2999L36.3167 24.9666C36.7833 24.7333 37.25 24.6166 37.8333 24.6166C39.8167 24.6166 41.3333 26.1333 41.3333 28.1166C41.3333 30.0999 39.8167 31.6166 37.8333 31.6166C35.85 31.6166 34.3333 30.0999 34.3333 28.1166C34.3333 27.5333 34.45 27.0666 34.6833 26.5999L30.0167 21.9333C29.9 21.9333 29.7833 22.0499 29.6667 22.0499V34.1833C31.0667 34.6499 32 35.9333 32 37.4499C32 39.4333 30.4833 40.9499 28.5 40.9499C26.5167 40.9499 25 39.4333 25 37.4499C25 35.9333 25.9333 34.6499 27.3333 34.1833V21.9333C25.9333 21.4666 25 20.1833 25 18.6666C25 18.0833 25.1167 17.6166 25.35 17.1499L20.5667 12.3666L7.26668 25.7833C6.68334 26.3666 6.33334 27.1833 6.33334 27.9999C6.33334 28.8166 6.68334 29.6333 7.26668 30.2166L26.2833 49.2333C26.8667 49.8166 27.6833 50.1666 28.5 50.1666C29.3167 50.1666 30.1333 49.8166 30.7167 49.2333L49.7333 30.2166C50.3167 29.6333 50.6667 28.8166 50.6667 27.9999C50.6667 27.1833 50.3167 26.3666 49.7333 25.7833Z"
+                        fill="#212529" />
+                </svg>
+
+                <p>Git</p>
+            </div>
+            <div>
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0V56H56V0H0ZM29.2275 47.9049C28.4026 49.5815 26.8262 50.6838 25.001 51.2152C22.1953 51.8594 19.513 51.4926 17.5161 50.2937C16.1794 49.4742 15.1362 48.2127 14.4294 46.7597C15.8502 45.8919 17.2674 45.0187 18.6881 44.1508C18.7257 44.1669 18.8367 44.3691 18.987 44.6304C19.5291 45.5412 19.998 46.1853 20.9195 46.6362C21.8249 46.944 23.8093 47.1426 24.5769 45.5501C25.0458 44.7413 24.8955 42.0859 24.8955 39.2068C24.8955 34.6815 24.9169 30.2313 24.9169 25.6506H30.1544C30.1544 30.4604 30.1812 35.2827 30.1544 40.0854C30.1651 43.0289 30.421 45.7058 29.2275 47.9049ZM50.9576 46.4251C49.1378 52.6539 38.9849 52.8561 34.9302 48.7405C34.0731 47.7725 33.5363 47.2661 33.0245 46.1478C35.1807 44.9077 35.1807 44.9077 37.2779 43.6945C38.4177 45.4463 39.4716 46.409 41.3666 46.8027C43.9379 47.1158 46.5253 46.2336 45.9456 43.5031C45.3497 41.2717 40.6812 40.7296 37.5033 38.3443C34.2771 36.1774 33.522 30.9131 36.172 27.9052C37.056 26.7922 38.5626 25.9619 40.1426 25.5629L41.7924 25.3499C44.9596 25.2855 46.9404 26.1212 48.3934 27.7459C48.7978 28.1557 49.127 28.5976 49.7462 29.5567C48.0588 30.6322 48.0642 30.6214 45.6467 32.1871C45.1296 31.0741 44.2743 30.3763 43.3689 30.0739C41.9642 29.648 40.191 30.1115 39.8241 31.5966C39.6971 32.0547 39.7239 32.4806 39.9261 33.2357C40.4951 34.5348 42.4062 35.0984 44.1204 35.8857C49.0555 37.888 50.7214 40.0317 51.1311 42.5869C51.5248 44.786 51.0345 46.2122 50.9611 46.4251H50.9576Z"
+                        fill="#212529" />
+                </svg>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="article-wrapper">
+        <article class="experiences">
+            <h1>Minha <b>Expêriencia</b></h1>
+            <div class="cards-wrapper">
+                <div class="tittle-card">
+                    <div class="title-wrapper">
+                        <img src="./src/imgs/senai-logo.svg" alt="senas">
+                        <p>Web Design - FrontEnd at SENAI</p>
+                    </div>
+
+                    <p>Nov 2019 - Present</p>
+
+                </div>
+                <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions
+                    for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed
+                    to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of
+                    users worldwide.</p>
+            </div>
+            <div class="cards-wrapper">
+                <div class="tittle-card">
+                    <div class="title-wrapper">
+                        <img src="./src/imgs/download-icon.svg" alt="exp">
+                        <p>Web Design - FrontEnd at SENAI</p>
+                    </div>
+
+                    <p>Nov 2019 - Present</p>
+
+                </div>
+                <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions
+                    for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed
+                    to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of
+                    users worldwide</p>
+            </div>
+            <div class="cards-wrapper">
+                <div class="tittle-card">
+                    <div class="title-wrapper">
+                        <img src="./src/imgs/download-icon.svg" alt="exp">
+                        <p>Web Design - FrontEnd at SENAI</p>
+                    </div>
+
+                    <p>Nov 2019 - Present</p>
+
+                </div>
+                <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions
+                    for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed
+                    to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of
+                    users worldwide.</p>
+            </div>
+        </article>
+        <article id="projects">
+            <h1>My <b>Projects</b></h1>
+            <div class="projects">
+
+                <div class="img-wrapper">
+                    <img src="./src/imgs/rr.svg" alt="">
+
+                    <div class="project-wrapper">
+
+                        <h1><b>01</b></h1>
+                        <h2>R&R Funilaria e Pintura</h2>
+                        <p>I'm Flora Sheen Loh1em Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer
+                            took
+                            a galley of type and scrambled it to specimen book.</p>
+                        <a target="_blank" href="https://github.com/LyanBrito/r-r-funilaria">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.8333 9.16671L17.6667 2.33337" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.3333 5.66663V1.66663H14.3333" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M9.16666 1.66663H7.49999C3.33332 1.66663 1.66666 3.33329 1.66666 7.49996V12.5C1.66666 16.6666 3.33332 18.3333 7.49999 18.3333H12.5C16.6667 18.3333 18.3333 16.6666 18.3333 12.5V10.8333"
+                                    stroke="#E9ECEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                    </div>
+
+                </div>
+                <div class="img-wrapper img-wrapper-reverse">
+                    <img src="./src/imgs/eril.svg" alt="">
+
+                    <div class="project-wrapper">
+
+                        <h1><b>02</b></h1>
+                        <h2>Brigadeiros Eril</h2>
+                        <p>I'm Flora Sheen Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer
+                            took
+                            a galley of type and scrambled it to specimen book.</p>
+                        <a target="_blank" href="https://github.com/LyanBrito/brigadeiros-eril">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.8333 9.16671L17.6667 2.33337" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.3333 5.66663V1.66663H14.3333" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M9.16666 1.66663H7.49999C3.33332 1.66663 1.66666 3.33329 1.66666 7.49996V12.5C1.66666 16.6666 3.33332 18.3333 7.49999 18.3333H12.5C16.6667 18.3333 18.3333 16.6666 18.3333 12.5V10.8333"
+                                    stroke="#E9ECEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="img-wrapper">
+                    <img src="./src/imgs/festa.svg" alt="">
+
+                    <div class="project-wrapper">
+
+                        <h1><b>03</b></h1>
+                        <h2>S'Amuser</h2>
+                        <p>I'm Flora Sheen Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer
+                            took
+                            a galley of type and scrambled it to specimen book.</p>
+                        <a target="_blank" href="https://github.com/LyanBrito/s-amuser">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.8333 9.16671L17.6667 2.33337" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.3333 5.66663V1.66663H14.3333" stroke="#E9ECEF" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M9.16666 1.66663H7.49999C3.33332 1.66663 1.66666 3.33329 1.66666 7.49996V12.5C1.66666 16.6666 3.33332 18.3333 7.49999 18.3333H12.5C16.6667 18.3333 18.3333 16.6666 18.3333 12.5V10.8333"
+                                    stroke="#E9ECEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <section id="contacts" class="contacts">
+        <form>
+            <input placeholder="Seu nome" type="text" name="name">
+            <input placeholder="Email" type="email" name="email">
+            <textarea placeholder="Como posso ajudar?*" name="message" id="message"></textarea>
+            <div class="button-wrapper">
+                <button type="button">Enviar Mensagem</button>
+                <a class="social-media" href="https://www.instagram.com/_lyanbrito_/" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17 4.5C17 5.32843 16.3284 6 15.5 6C14.6716 6 14 5.32843 14 4.5C14 3.67157 14.6716 3 15.5 3C16.3284 3 17 3.67157 17 4.5Z"
+                            fill="#212529" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10 15C12.7614 15 15 12.7614 15 10C15 7.23858 12.7614 5 10 5C7.23858 5 5 7.23858 5 10C5 12.7614 7.23858 15 10 15ZM10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z"
+                            fill="#212529" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 9.6C0 6.23969 0 4.55953 0.653961 3.27606C1.2292 2.14708 2.14708 1.2292 3.27606 0.653961C4.55953 0 6.23969 0 9.6 0H10.4C13.7603 0 15.4405 0 16.7239 0.653961C17.8529 1.2292 18.7708 2.14708 19.346 3.27606C20 4.55953 20 6.23969 20 9.6V10.4C20 13.7603 20 15.4405 19.346 16.7239C18.7708 17.8529 17.8529 18.7708 16.7239 19.346C15.4405 20 13.7603 20 10.4 20H9.6C6.23969 20 4.55953 20 3.27606 19.346C2.14708 18.7708 1.2292 17.8529 0.653961 16.7239C0 15.4405 0 13.7603 0 10.4V9.6ZM9.6 2H10.4C12.1132 2 13.2777 2.00156 14.1779 2.0751C15.0548 2.14674 15.5032 2.27659 15.816 2.43597C16.5686 2.81947 17.1805 3.43139 17.564 4.18404C17.7234 4.49684 17.8533 4.94524 17.9249 5.82208C17.9984 6.72225 18 7.88684 18 9.6V10.4C18 12.1132 17.9984 13.2777 17.9249 14.1779C17.8533 15.0548 17.7234 15.5032 17.564 15.816C17.1805 16.5686 16.5686 17.1805 15.816 17.564C15.5032 17.7234 15.0548 17.8533 14.1779 17.9249C13.2777 17.9984 12.1132 18 10.4 18H9.6C7.88684 18 6.72225 17.9984 5.82208 17.9249C4.94524 17.8533 4.49684 17.7234 4.18404 17.564C3.43139 17.1805 2.81947 16.5686 2.43597 15.816C2.27659 15.5032 2.14674 15.0548 2.0751 14.1779C2.00156 13.2777 2 12.1132 2 10.4V9.6C2 7.88684 2.00156 6.72225 2.0751 5.82208C2.14674 4.94524 2.27659 4.49684 2.43597 4.18404C2.81947 3.43139 3.43139 2.81947 4.18404 2.43597C4.49684 2.27659 4.94524 2.14674 5.82208 2.0751C6.72225 2.00156 7.88684 2 9.6 2Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="https://www.linkedin.com/in/lyanbrito" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.325307 8.64474C0.325307 7.52185 1.23559 6.61157 2.35847 6.61157V6.61157C3.48136 6.61157 4.39164 7.52185 4.39164 8.64474V17.9668C4.39164 19.0897 3.48136 20 2.35847 20V20C1.23559 20 0.325307 19.0897 0.325307 17.9668V8.64474ZM0 2.39669C0 1.73554 0.225907 1.17539 0.677722 0.716252C1.14761 0.238751 1.70786 0 2.35847 0C3.00909 0 3.5603 0.238751 4.01212 0.716252C4.482 1.17539 4.71695 1.73554 4.71695 2.39669C4.71695 3.05785 4.482 3.62718 4.01212 4.10468C3.5603 4.56382 3.00909 4.79339 2.35847 4.79339C1.70786 4.79339 1.14761 4.56382 0.677722 4.10468C0.225907 3.62718 0 3.05785 0 2.39669Z"
+                            fill="#212529" />
+                        <path
+                            d="M7.31304 8.56341C7.31304 7.48544 8.18691 6.61157 9.26488 6.61157H10.3076C10.8097 6.61157 11.2167 7.01858 11.2167 7.52066V8.39634C11.2167 8.41479 11.2317 8.42975 11.2501 8.42975V8.42975C11.2629 8.42975 11.2745 8.42252 11.2802 8.41114C11.4062 8.16023 11.5838 7.90931 11.8131 7.6584C12.0481 7.40129 12.3282 7.17172 12.6535 6.9697C12.9788 6.76768 13.3493 6.60239 13.765 6.47383C14.1806 6.34527 14.6324 6.28099 15.1204 6.28099C16.1505 6.28099 16.9819 6.44628 17.6144 6.77686C18.247 7.08907 18.7349 7.52984 19.0783 8.09917C19.4397 8.6685 19.6837 9.33884 19.8102 10.1102C19.9367 10.8815 20 11.7172 20 12.6171V17.9668C20 19.0897 19.0897 20 17.9668 20V20C16.8439 20 15.9337 19.0897 15.9337 17.9668V13.4435C15.9337 13.0579 15.9156 12.663 15.8795 12.259C15.8614 11.8365 15.7801 11.4509 15.6355 11.1019C15.509 10.753 15.3011 10.4683 15.012 10.2479C14.7409 10.0275 14.3433 9.91735 13.8192 9.91735C13.2951 9.91735 12.8704 10.0184 12.5451 10.2204C12.2198 10.404 11.9667 10.6612 11.786 10.9917C11.6234 11.3039 11.5149 11.6621 11.4607 12.0661C11.4065 12.4702 11.3794 12.8926 11.3794 13.3333V17.9668C11.3794 19.0897 10.4691 20 9.34621 20V20C8.22332 20 7.31304 19.0897 7.31304 17.9668V8.56341Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="mailto:lyanbrito613@gmail.com" target="_blank">
+                    <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.48777 20H6.72913V9.69958L0.670044 5.15527V18.1823C0.670044 19.1881 1.48499 20 2.48777 20Z"
+                            fill="#212529" />
+                        <path d="M21.2709 20H25.5123C26.5181 20 27.33 19.1851 27.33 18.1823V5.15527L21.2709 9.69958"
+                            fill="#212529" />
+                        <path
+                            d="M21.2709 1.82288V9.69969L27.33 5.15538V2.73174C27.33 0.483824 24.764 -0.797672 22.9675 0.550474"
+                            fill="#212529" />
+                        <path d="M6.72913 9.69956V1.82275L14 7.27593L21.2709 1.82275V9.69956L14 15.1527"
+                            fill="#212529" />
+                        <path
+                            d="M0.670044 2.73174V5.15538L6.72913 9.69969V1.82288L5.03258 0.550474C3.23304 -0.797672 0.670044 0.483824 0.670044 2.73174"
+                            fill="#212529" />
+                    </svg>
+                </a>
+                <a class="social-media" href="https://github.com/LyanBrito" target="_blank">
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11 0C5.31263 0 0.706116 4.58819 0.706116 10.2529C0.706116 14.7899 3.65274 18.6219 7.74456 19.9804C8.25925 20.0701 8.45226 19.7625 8.45226 19.4934C8.45226 19.2499 8.43939 18.4425 8.43939 17.5838C5.85306 18.058 5.18395 16.9558 4.97808 16.3791C4.86227 16.0843 4.36044 15.1743 3.92295 14.9308C3.56267 14.7386 3.04797 14.2644 3.91009 14.2516C4.72073 14.2388 5.29976 14.9949 5.49277 15.3025C6.41922 16.8533 7.89896 16.4175 8.49086 16.1484C8.58093 15.4819 8.85115 15.0334 9.1471 14.777C6.85671 14.5207 4.46338 13.6364 4.46338 9.71466C4.46338 8.59965 4.86227 7.67689 5.5185 6.95918C5.41557 6.70286 5.05528 5.65193 5.62144 4.24215C5.62144 4.24215 6.48356 3.97301 8.45226 5.29308C9.27577 5.06239 10.1508 4.94704 11.0257 4.94704C11.9007 4.94704 12.7757 5.06239 13.5992 5.29308C15.5679 3.9602 16.43 4.24215 16.43 4.24215C16.9962 5.65193 16.6359 6.70286 16.533 6.95918C17.1892 7.67689 17.5881 8.58684 17.5881 9.71466C17.5881 13.6492 15.1819 14.5207 12.8915 14.777C13.2646 15.0975 13.5863 15.7126 13.5863 16.6738C13.5863 18.0452 13.5735 19.1474 13.5735 19.4934C13.5735 19.7625 13.7665 20.0829 14.2812 19.9804C18.3473 18.6219 21.2939 14.777 21.2939 10.2529C21.2939 4.58819 16.6874 0 11 0Z"
+                            fill="#212529" />
+                    </svg>
+                </a>
+            </div>
+        </form>
+        <div class="text-wrapper">
+            <h1><b>Vamos</b> conversar <b>sobre algo especial</b></h1>
+            <p>Procuro ultrapassar os limites da criatividade para criar experiências interativas altamente envolventes,
+                fáceis de usar e memoráveis.</p>
+            <h3>lyanbrito613@gmail.com <br>
+                +55 (11) 98658-1730
+            </h3>
+        </div>
+    </section>
+    <footer>
+        <div class="header-wrapper footer-responsive">
+            <img src="./src/imgs/footer-img.svg" alt="site-logo">
+            <h4>Lyan Brito</h4>
+        </div>
+    </footer>
+    <script src="./src/script/script.js"></script>
+</body>
+
+</html>
