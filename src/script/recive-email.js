@@ -1,13 +1,15 @@
+import env from "../config/config";
+
 (function( ) {
     emailjs.init({
-        publicKey: "jS_APP_EMAILJS_PUBLICKEY",
+        publicKey: env.jS_APP_EMAILJS_PUBLICKEY,
     })
 
 
 })();
 document.getElementById("contact-form").addEventListener("submit", function(e){
     e.preventDefault();
-    emailjs.sendForm("jS_APP_EMAILJS_SERVICEID", "jS_APP_EMAILJS_TEMPLATEID_RECEIVED", this).then(
+    emailjs.sendForm(env.jS_APP_EMAILJS_SERVICEID, env.jS_APP_EMAILJS_TEMPLATEID_RECEIVED, this).then(
         function(){
             console.log('Sucesso')
             alert('Email enviado com Sucesso')
