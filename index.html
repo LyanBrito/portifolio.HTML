@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/style/styles-mobile.css">
     <link rel="stylesheet" href="./src/style/hover.css">
     <link rel="icon" href="./src/imgs/favicon.svg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -248,12 +249,12 @@
     </div>
 
     <section id="contacts" class="contacts">
-        <form>
-            <input placeholder="Your name" type="text" name="name">
-            <input placeholder="Email" type="email" name="email">
-            <textarea placeholder="How can I help?*" name="message" id="message"></textarea>
+        <form id="contact-form">
+            <input placeholder="Your name" type="text" name="name" required>
+            <input placeholder="Email" type="email" name="email" required>
+            <textarea placeholder="How can I help?*" name="message" id="message" required></textarea>
             <div class="button-wrapper">
-                <button type="button">Get in Touch</button>
+                <button type="submit">Get in Touch</button>
                 <a class="social-media" href="#">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -319,6 +320,7 @@
         </div>
     </footer>
     <script src="./src/script/script.js"></script>
+    <script src="./src/script/recive-email.js"></script>
 </body>
 
 </html>
