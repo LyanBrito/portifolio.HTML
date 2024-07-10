@@ -1,4 +1,4 @@
-import env from "../config/config";
+import env from "../config/config.js";
 
 emailjs.init({
   publicKey: env.jS_APP_EMAILJS_PUBLICKEY,
