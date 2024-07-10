@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "node ./src/script/recive-email.js"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "dotenv": "^16.4.5"
+  },
+  "type": "module"
+
+}
